@@ -26,6 +26,7 @@ const ToDoModal = ({modalOpen, setModalOpen}) => {
         }else {
             toast.error("Title Shouldn't Empty")
         }
+        setTitle("")
     }
 
     return (

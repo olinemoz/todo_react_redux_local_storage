@@ -22,7 +22,7 @@ const ToDoModal = ({type, modalOpen, setModalOpen, todo}) => {
     },[type, todo, modalOpen])
 
     const handleSubmit = event => {
-        console.log("Title: ",title, "Status: ",status)
+        // console.log("Title: ",title, "Status: ",status)
         event.preventDefault();
         if(title === ''){
             toast.error("Please enter a title!")
